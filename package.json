@@ -9,6 +9,7 @@
   "license": "MIT",
   "author": "Storybook Team",
   "main": "dist/index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "clean": "rimraf ./dist",
     "compile": "babel ./src --out-dir ./dist",
