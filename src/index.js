@@ -91,7 +91,9 @@ const getNewProps = (target, context, opts) => {
     if (ignoreProps.includes(n)) {
       return acc
     }
-
+    if(!item.type)
+      item.type = item.tsType
+    
     if (!item.type) {
       const defaultValue = item.defaultValue ? item.defaultValue.value : 'Unknown'
       logger.warn(`There is a prop with defaultValue ${defaultValue} but it wasn't specified on element.propTypes. Check story: "${context.kind}".`)
