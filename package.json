@@ -3,7 +3,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "name": "@sauldhernandez/storybook-addon-smart-knobs",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "description": "Automatically created knobs for storybook.",
   "repository": "https://github.com/sauldhernandez/addon-smart-knobs",
   "license": "MIT",
